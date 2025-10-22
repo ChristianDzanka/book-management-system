@@ -1,6 +1,6 @@
 <template>
   <div class="container py-4">
-    <h2 class="mb-4 text-center">📚 Book Management System</h2>
+    <h2 class="mb-4 text-center">📚 MK's Book Management System</h2>
 
     <BookForm :bookToEdit="selectedBook" @save="saveBook" />
     <SearchBar @search="filterBooks" />
